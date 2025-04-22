@@ -134,7 +134,11 @@ document.getElementById("regenerateBtn").addEventListener("click", () => {
   generateGrid(false);
 });
 
-generateGrid(true);
+if (localStorage.getItem(STORAGE_KEY)) {
+  generateGrid(true);
+} else {
+  generateGrid(false);
+}
 
 function checkLines() {
   const cells = document.querySelectorAll(".cell");
