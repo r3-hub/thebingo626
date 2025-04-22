@@ -127,6 +127,8 @@ function generateGrid(fromSaved = false) {
 
     grid.appendChild(cell);
   });
+
+  checkLines();
 }
 
 document.getElementById("regenerateBtn").addEventListener("click", () => {
