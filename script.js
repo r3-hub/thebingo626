@@ -251,3 +251,9 @@ togglePhraseSetButton.addEventListener("click", () => {
 });
 
 updatePhraseSetButton();
+
+document.querySelectorAll('button').forEach(button => {
+  button.addEventListener('click', () => {
+    button.blur();
+  });
+});
