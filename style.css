@@ -88,13 +88,13 @@ button:hover {
 
 @media (max-width: 600px) {
   .grid {
-    grid-template-columns: repeat(5, 60px);
-    grid-template-rows: repeat(5, 60px);
-    gap: 6px;
+    grid-template-columns: repeat(5, 70px);
+    grid-template-rows: repeat(5, 70px);
+    gap: 4px;
   }
 
   .cell {
-    font-size: 12px;
+    font-size: 10px;
     padding: 3px;
   }
 
@@ -104,6 +104,9 @@ button:hover {
   }
 
   h1 {
-    font-size: 20px;
+    font-size: 30px;
   }
+
+  h2 span {
+    font-size: 20px;
 }
