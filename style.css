@@ -96,6 +96,7 @@ button:hover {
   .cell {
     font-size: 10px;
     padding: 3px;
+    hyphens: auto;
   }
 
   button {
