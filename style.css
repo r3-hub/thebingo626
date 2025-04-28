@@ -67,6 +67,12 @@ h2::after {
   text-decoration: line-through;
 }
 
+.cell.complete-line {
+  color: #225a1c;
+  background-color: #a8e6a1;
+  text-decoration: none;
+}
+
 button {
   padding: 10px 20px;
   font-size: 16px;
@@ -80,11 +86,6 @@ button {
 
 button:hover {
   background-color: #45a049;
-}
-
-.cell.complete-line {
-  background-color: #a8e6a1 !important;
-  color: #225a1c;
 }
 
 @media (max-width: 600px) {
