@@ -61,6 +61,12 @@ h2::after {
   user-select: none;
 }
 
+.cell.struck {
+  color: #aaa;
+  background-color: #e0e0e0;
+  text-decoration: line-through;
+}
+
 button {
   padding: 10px 20px;
   font-size: 16px;
@@ -74,11 +80,6 @@ button {
 
 button:hover {
   background-color: #45a049;
-}
-
-.cell.struck {
-  color: #aaa;
-  background-color: #e0e0e0;
 }
 
 .cell.complete-line {
