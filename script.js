@@ -1,6 +1,10 @@
 const phraseSets = [
   {
     name: "🍆 Ромба mode",
+    sounds: {
+      strike: null,
+      line: null
+    },
     phrases: [
       // "ромба пьет из горла",
       // "мик гордон",
@@ -40,6 +44,10 @@ const phraseSets = [
   },
   {
     name: "🏅 Кулук mode",
+    sounds: {
+      strike: null,
+      line: null
+    },
     phrases: [
       "нечестно",
       "супернечестно",
